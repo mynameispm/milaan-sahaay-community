@@ -80,8 +80,8 @@ const Signup = () => {
           <CardContent>
             <Tabs defaultValue="seeker" className="mb-6" onValueChange={(v) => setRole(v as UserRole)}>
               <TabsList className="grid grid-cols-2 w-full">
-                <TabsTrigger value="seeker">Problem Seeker</TabsTrigger>
-                <TabsTrigger value="helper">NGO Helper</TabsTrigger>
+                <TabsTrigger value="seeker">SamsyaVasi</TabsTrigger>
+                <TabsTrigger value="helper"> Suthradhari</TabsTrigger>
               </TabsList>
               <div className="mt-4 text-sm text-center text-muted-foreground">
                 {role === "seeker" ? (
