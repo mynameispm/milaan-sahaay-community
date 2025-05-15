@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# MILAAN SAAHAY COMMUNITY
 
-## Project info
+A community-focused support platform built for the DigiFuture Hackathon 2025.
 
-**URL**: https://lovable.dev/projects/bfd5d581-ad1a-4820-937e-8ab8a2f24de0
+## 🚀 About The Project
 
-## How can I edit this code?
+MILAAN SAAHAY COMMUNITY was developed during the 48-hour coding sprint at DigiFuture Hackathon. Our team wanted to create an inclusive platform that connects community members and provides resources for mutual support and growth.
 
-There are several ways of editing your application.
+### Key Features
 
-**Use Lovable**
+- 🤝 Community resource sharing network
+- 📋 Event organization and volunteer coordination
+- 💬 Community discussion forums
+- 📱 Responsive design works on desktop and mobile
+- 🔒 Secure user authentication system
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bfd5d581-ad1a-4820-937e-8ab8a2f24de0) and start prompting.
+## 💻 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui components
 
-**Use your preferred IDE**
+## 🛠️ Installation & Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/milaan-saahay-community.git
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Navigate to project directory
+cd milaan-saahay-community
 
-Follow these steps:
+# Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📝 Usage
 
-**Use GitHub Codespaces**
+1. Create community support initiatives
+2. Volunteer for local events and programs
+3. Share resources and knowledge with community members
+4. Organize collaborative community projects
+5. Track impact metrics within your community
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+### Design Decisions
 
-This project is built with:
+- Inclusive UI designed for users of all technical abilities
+- Community-first approach emphasizing collaboration
+- Multilingual support for diverse communities
+- Modular architecture to support community-specific needs
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🤝 Team Members
 
-## How can I deploy this project?
+- Dhanush Kumar (Backend)
+- Mohan Raj (Design)
+- Priyanshu (Backend)
+- Phaneendra M (UI/UX)
 
-Simply open [Lovable](https://lovable.dev/projects/bfd5d581-ad1a-4820-937e-8ab8a2f24de0) and click on Share -> Publish.
+## 📊 Future Improvements
 
-## Can I connect a custom domain to my Lovable project?
+- Resource mapping visualization
+- Mobile app development
+- Community impact measurement tools
+- Integration with local government services
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
