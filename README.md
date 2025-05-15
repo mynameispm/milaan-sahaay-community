@@ -4,7 +4,7 @@ A community-focused support platform built for the DigiFuture Hackathon 2025.
 
 ## 🚀 About The Project
 
-MILAAN SAAHAY COMMUNITY 
+MILAAN SAAHAY COMMUNITY  is designed to connect people who are facing real-world problems—like students, citizens, or communities—with those who can help solve them, like mentors, NGOs, or experts. Think of it like a matchmaking platform for social impact
 
 ### Key Features
 
