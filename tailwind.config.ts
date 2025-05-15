@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,29 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+        milaan: {
+          100: '#f0e7ff',
+          200: '#d8c5ff',
+          300: '#b292f9',
+          400: '#8a62ea',
+          500: '#6b3fd6',
+          600: '#5429c0',
+          700: '#421ea8',
+          800: '#2e1475',
+          900: '#1b0942',
+        },
+        teal: {
+          100: '#e6fff5',
+          200: '#b3ffe0',
+          300: '#70ffc9',
+          400: '#2dffb3',
+          500: '#00e699',
+          600: '#00b377',
+          700: '#008055',
+          800: '#004d33',
+          900: '#001a11',
+        },
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +107,62 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+        'fade-in': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(10px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          }
+        },
+        'scale-in': {
+          '0%': {
+            transform: 'scale(0.95)',
+            opacity: '0'
+          },
+          '100%': {
+            transform: 'scale(1)',
+            opacity: '1'
+          }
+        },
+        'slide-in-right': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' }
+        },
+        'slide-out-right': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(100%)' }
+        },
+        'text-shimmer': {
+          '0%': {
+            backgroundPosition: '-100%'
+          },
+          '100%': {
+            backgroundPosition: '100%'
+          }
+        },
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5px)' },
+        }
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+        'fade-in': 'fade-in 0.3s ease-out',
+        'scale-in': 'scale-in 0.2s ease-out',
+        'slide-in': 'slide-in-right 0.3s ease-out',
+        'slide-out': 'slide-out-right 0.3s ease-out',
+        'text-shimmer': 'text-shimmer 2.5s ease-in-out infinite',
+        'wiggle': 'wiggle 2s ease-in-out infinite',
+        'float': 'float 3s ease-in-out infinite',
 			}
 		}
 	},
