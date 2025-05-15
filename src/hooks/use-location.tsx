@@ -30,7 +30,6 @@ export function useLocation() {
         navigator.geolocation.getCurrentPosition(resolve, reject);
       });
       
-      const { latitude, lng } = position.coords;
       const latitude = position.coords.latitude;
       const longitude = position.coords.longitude;
       
