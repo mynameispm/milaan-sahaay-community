@@ -1,73 +1,145 @@
-# MILAAN: "Vasudhaiva Kutumbakam".
+# 🤝 MILAAN — *Vasudhaiva Kutumbakam*
 
-A community-focused support platform built for the DigiFuture Hackathon 2025.
+> *"The world is one family."* — A community-driven platform that connects people facing real-world challenges with those who can help solve them.
 
-## 🚀 About The Project
+---
 
-MILAAN: "Vasudhaiva Kutumbakam".  is designed to connect people who are facing real-world problems—like students, citizens, or communities—with those who can help solve them, like mentors, NGOs, or experts. Think of it like a matchmaking platform for social impact
+## 🌍 About
 
-### Key Features
+**MILAAN** (मिलान — meaning *"to meet / to connect"*) is a social impact web platform built on the belief that every problem has a solution within the community itself. It bridges the gap between individuals in need — students, citizens, and local communities — and those who can help, like mentors, NGOs, and domain experts.
 
-- 🤝 Community resource sharing network
-- 📋 Event organization and volunteer coordination
-- 💬 Community discussion forums
-- 📱 Responsive design works on desktop and mobile
-- 🔒 Secure user authentication system
+Whether it's finding a volunteer, organizing a local event, or sharing critical resources, MILAAN brings people together to create real, measurable change.
 
-## 💻 Tech Stack
+---
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- shadcn/ui components
+## ✨ Features
 
-## 🛠️ Installation & Setup
+- 🤝 **Community Support Network** — Connect people with problems to those with solutions
+- 📋 **Event Organization** — Create, manage, and join volunteer-driven community events
+- 💬 **Discussion Forums** — Open community conversations around local issues
+- 🔗 **Resource Sharing** — Share knowledge, tools, and contacts across communities
+- 📊 **Impact Tracking** — Monitor contributions and community outcomes
+- 🔒 **Secure Authentication** — User login and profile management via Supabase Auth
+- 📱 **Fully Responsive** — Works seamlessly on desktop and mobile
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **React** | Frontend UI framework |
+| **TypeScript** | Type-safe development |
+| **Vite** | Lightning-fast build tool |
+| **Tailwind CSS** | Utility-first styling |
+| **shadcn/ui** | Accessible, pre-built UI components |
+| **Supabase** | Backend — database, auth & real-time sync |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) v18 or above
+- npm or bun
+
+### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/milaan-saahay-community.git
+# 1. Clone the repository
+git clone https://github.com/mynameispm/milaan-sahaay-community.git
 
-# Navigate to project directory
-cd milaan-saahay-community
+# 2. Navigate into the project directory
+cd milaan-sahaay-community
 
-# Install dependencies
+# 3. Install dependencies
 npm install
 
-# Start development server
+# 4. Start the development server
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`
+The app will be live at `http://localhost:5173`.
 
-## 📝 Usage
+---
 
-1. Create community support initiatives
-2. Volunteer for local events and programs
-3. Share resources and knowledge with community members
-4. Organize collaborative community projects
-5. Track impact metrics within your community
+## ⚙️ Environment Setup
 
+This project uses **Supabase** as its backend. Create a `.env` file at the root of the project and add your credentials:
 
-### Design Decisions
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-- Inclusive UI designed for users of all technical abilities
-- Community-first approach emphasizing collaboration
-- Multilingual support for diverse communities
-- Modular architecture to support community-specific needs
+Find these in your [Supabase Dashboard](https://supabase.com/dashboard) under Project Settings → API.
 
-## 🤝 Team Members
+---
 
-- Dhanush Kumar (Backend)
-- Mohan Raj (Design)
-- Priyanshu (Backend)
-- Phaneendra M (UI/UX)
+## 📁 Project Structure
 
-## 📊 Future Improvements
+```
+milaan-sahaay-community/
+├── public/            # Static assets
+├── src/
+│   ├── components/    # Reusable UI components
+│   ├── pages/         # Route-level page components
+│   ├── hooks/         # Custom React hooks
+│   └── lib/           # Utilities & Supabase client config
+├── supabase/          # Supabase migrations & config
+├── index.html
+└── vite.config.ts
+```
 
-- Resource mapping visualization
-- Mobile app development
-- Community impact measurement tools
-- Integration with local government services
+---
 
+## 🏗️ Build for Production
 
+```bash
+npm run build
+```
+
+Output files will be in the `dist/` directory, ready for deployment.
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Resource mapping with interactive visualizations
+- [ ] Multilingual support for diverse communities
+- [ ] Mobile app (React Native)
+- [ ] Integration with local government services
+- [ ] Community impact measurement dashboard
+
+---
+
+## 👥 Team
+
+| Name | Role |
+|---|---|
+| **Phaneendra M** | UI/UX |
+| **Priyanshu** | Backend |
+| **Dhanush Kumar** | Backend |
+| **Mohan Raj** | Design |
+
+---
+
+## 🤝 Contributing
+
+Contributions, ideas, and pull requests are always welcome. Feel free to open an issue to discuss what you'd like to improve.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  <b>मिलान — जहाँ हर समस्या का हल, समाज में ही है।</b><br/>
+  <i>("MILAAN — where every problem finds its answer within the community itself.")</i>
+  <br/><br/>
+  Made with ❤️ by <a href="https://github.com/mynameispm">mynameispm</a> & Team
+</div>
