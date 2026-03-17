@@ -116,9 +116,7 @@ Output files will be in the `dist/` directory, ready for deployment.
 
 Contributions, ideas, and pull requests are always welcome. Feel free to open an issue to discuss what you'd like to improve.
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
   <b>मिलान — जहाँ हर समस्या का हल, समाज में ही है।</b><br/>
