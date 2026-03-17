@@ -2,7 +2,6 @@
 
 > *"The world is one family."* — A community-driven platform that connects people facing real-world challenges with those who can help solve them.
 
----
 
 ## 🌍 About
 
@@ -10,7 +9,6 @@
 
 Whether it's finding a volunteer, organizing a local event, or sharing critical resources, MILAAN brings people together to create real, measurable change.
 
----
 
 ## ✨ Features
 
@@ -22,7 +20,6 @@ Whether it's finding a volunteer, organizing a local event, or sharing critical 
 - 🔒 **Secure Authentication** — User login and profile management via Supabase Auth
 - 📱 **Fully Responsive** — Works seamlessly on desktop and mobile
 
----
 
 ## 🛠️ Tech Stack
 
@@ -35,7 +32,6 @@ Whether it's finding a volunteer, organizing a local event, or sharing critical 
 | **shadcn/ui** | Accessible, pre-built UI components |
 | **Supabase** | Backend — database, auth & real-time sync |
 
----
 
 ## 🚀 Getting Started
 
@@ -62,7 +58,6 @@ npm run dev
 
 The app will be live at `http://localhost:5173`.
 
----
 
 ## ⚙️ Environment Setup
 
@@ -74,8 +69,6 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
 Find these in your [Supabase Dashboard](https://supabase.com/dashboard) under Project Settings → API.
-
----
 
 ## 📁 Project Structure
 
@@ -92,8 +85,6 @@ milaan-sahaay-community/
 └── vite.config.ts
 ```
 
----
-
 ## 🏗️ Build for Production
 
 ```bash
@@ -102,7 +93,6 @@ npm run build
 
 Output files will be in the `dist/` directory, ready for deployment.
 
----
 
 ## 🗺️ Roadmap
 
@@ -111,8 +101,6 @@ Output files will be in the `dist/` directory, ready for deployment.
 - [ ] Mobile app (React Native)
 - [ ] Integration with local government services
 - [ ] Community impact measurement dashboard
-
----
 
 ## 👥 Team
 
@@ -123,19 +111,14 @@ Output files will be in the `dist/` directory, ready for deployment.
 | **Dhanush Kumar** | Backend |
 | **Mohan Raj** | Design |
 
----
 
 ## 🤝 Contributing
 
 Contributions, ideas, and pull requests are always welcome. Feel free to open an issue to discuss what you'd like to improve.
 
----
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
 
 <div align="center">
   <b>मिलान — जहाँ हर समस्या का हल, समाज में ही है।</b><br/>
